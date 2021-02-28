@@ -21,7 +21,7 @@ namespace Blake.NET5Project.Controllers
         public IActionResult Index()
         {
             ViewBag.Time = DateTime.Now;
-            ViewBag.Info = "NET5 v2";
+            ViewBag.Info = "NET5 v3";
             ViewBag.Port = $"{base.Request.Host.Port}";
             return View();
         }
